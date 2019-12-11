@@ -62,7 +62,7 @@ p {
 }
 
 .card-body {
-  padding: .5rem;
+  padding: 0 .5rem;
 }
 
 .card-body h2 {
@@ -91,12 +91,12 @@ p {
     padding: 0 .5rem;
   }
 
-  p {
-    margin: 0 1rem;
+  .card-body p {
+    margin: .5rem;
   }
 
   .card-body h2 {
-    margin-top: .5rem;
+    margin-top: .75rem;
   }
 
 }
@@ -125,12 +125,12 @@ p {
     width: 100%;
   }
 
-  img, p {
-    margin: .5rem 0 0;
+  .card-img img, .card-img p {
+    margin-top: .5rem;
   }
 
   h2 {
-    margin: 1rem 0 0;
+    margin-top: 1rem;
   }
 
 }
@@ -177,7 +177,7 @@ p {
     width: 82%;
   }
 
-  h2, p {
+  .card-img h2, .card-img p {
     margin: 0;
   }
 
