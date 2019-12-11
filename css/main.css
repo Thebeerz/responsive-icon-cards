@@ -24,17 +24,41 @@ body {
 
 img {
   display: block;
-  width: 50%;
+  width: 33%;
   margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  margin-bottom: .3rem;
+}
+
+.card {
+  display: block;
 }
 
 .cards {
   list-style-type: none;
-  padding: .5rem 1.3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.card-img {
+  padding: .5rem 1.3rem 1.3rem;
 }
 
 .card-img img {
-  padding: .5rem 1.3rem;
+  display: block;
+  width: 50px;
+  margin: 0 auto;
 }
 
 .card-body {
@@ -67,12 +91,12 @@ img {
     padding: 0 .5rem;
   }
 
-  p {
-    margin: .75rem 0 0;
+  .card-body p {
+    margin-top: .75rem;
   }
 
-  h2 {
-    padding: .5rem 0 0;
+  .card-body h2 {
+    margin-top: .5rem;
   }
 
 }
